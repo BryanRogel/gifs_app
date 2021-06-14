@@ -2,12 +2,12 @@ import { Component, ElementRef, ViewChild } from '@angular/core';
 import { GifsService } from '../services/gifs.service';
 
 @Component({
-  selector: 'app-busquedad',
-  templateUrl: './busquedad.component.html',
+  selector: 'app-busqueda',
+  templateUrl: './busqueda.component.html',
   styles: [
   ]
 })
-export class BusquedadComponent {
+export class BusquedaComponent {
 
   @ViewChild('txtBuscar') txtBuscar!: ElementRef<HTMLInputElement>;
 
